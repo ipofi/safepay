@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.side_panel {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+  border: #f8f9fa 1px solid;
+  border-radius: 20px;
+}
+.side_panel div:first-child {
+  color: #212529;
+  background-color: #ffeee6;
+}
+.side_panel div:first-child ~ div {
+  cursor: pointer;
+}
+.side_panel div:first-child ~ div:hover {
+  background-color: #eff1f3;
+}
