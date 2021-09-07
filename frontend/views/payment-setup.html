@@ -1,0 +1,74 @@
+<div class="alert alert-secondary mb-3">
+    Dashboard / Payment setup
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 border-end">
+            <form action="">
+                <div class="input-group mb-5">
+                    <select class="form-select" id="">
+                        <option selected disabled>Select your bank</option>
+                        <option value="1">FirstBank</option>
+                        <option value="2">GTB</option>
+                        <option value="3">Union Bank</option>
+                    </select>
+                </div>
+                <div class="mb-5">
+                    <input type="text" class="form-control" placeholder="Enter account number">
+                </div>
+                <div class="mb-5">
+                    <input type="text" class="form-control" placeholder="Account name">
+                </div>
+                <div class="mb-5">
+                    <input type="text" class="form-control" placeholder="Enter BVN (f business is not registered)">
+                </div>
+                <div class="row text-center ">
+                    <div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <form action="">
+                    <small class="mb-5">
+                        <span class="me-3">Do you want to upload payment items? </span>
+                    
+                        <input class="form-check-input" type="radio" name="pitems" value="" id="flexCheckDefault1" checked>
+                        <label class="form-check-label me-2" for="flexCheckDefault1">
+                            Yes
+                        </label>
+                    
+                        <input class="form-check-input" type="radio" name="pitems" value="" id="flexCheckDefault2">
+                        <label class="form-check-label me-2" for="flexCheckDefault2">
+                            No
+                        </label>
+                    </small>
+                    <div class="input-group mb-5 mt-3">
+                        <label class="input-group-text" for="reg-doc">Upload payment items (Excel/CSV only)</label>
+                        <input type="file" name="" class="form-control" id="reg-doc">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" placeholder="Enter item category">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" placeholder="Enter name of payment item">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" placeholder="Describe payment item">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Enter amount for payment item">
+                    </div>
+                    <div class="row text-center">
+                        <div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
